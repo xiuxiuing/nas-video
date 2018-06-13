@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <script type="text/javascript" src="//cdn.jsrun.net/js/embed/highlight.pack.js"></script>
+    <script type="text/javascript" src="//cdn.jsrun.net/js/embed.min.js?v=20170501"></script>
+    <link rel="stylesheet" type="text/css" href="/res/css/embed/main.css?v=20170501"/>
+    <link rel="stylesheet" type="text/css" href="/res/css/embed/embed-light.css?v=1.1"/>
+    <script type="text/javascript">
+        var height;
+        var force_height = null;
+        var slug = "vJqKp";
+        var show_src = "//jsrun.cn/vJqKp/result/bj/";
+        var resize_element_counter = 0;
+        var shell_edit_url = '/vJqKp/bj/';
+    </script>
+
+    <link href="//code.cdn.mozilla.net/fonts/fira.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400'" rel="stylesheet" type="text/css">
+
+    <style type="text/css" media="screen">
+    </style>
+
+</head>
+<body>
+<div id="wrapper">
+
+    <header>
+        <h1><a href="/vJqKp/edit?utm_source=website" target="_blank"><span class="mobileHide" >SOURCE <span> </a></h1>
+
+        <div id="actions">
+            <ul class="normalRes">
+                    <li>
+                        <a data-trigger-type="result" href="#Result">Result</a>
+                    </li>
+                    <li>
+                        <a data-trigger-type="html" href="#HTML">HTML</a>
+                    </li>
+                    <li>
+                        <a data-trigger-type="css" href="#CSS">CSS</a>
+                    </li>
+            </ul>
+            <div class="hl"></div>
+        </div>
+    </header>
+
+    <div id="tabs">
+            <div class="tCont result active" id="result"></div>
+            <div id="traceBox">
+                <div class="head">
+                    <span>console 命令行工具</span>
+                    <b id="closeConsole">X</b>
+                    <b id="clearConsole">clear</b>
+                </div>
+                <div class="bd" id="consoleBox">
+                    <pre id="consoleLog"></pre>
+                    <div class="input">
+                        <div style="color: #359cf4;font-weight: bold;">></div>
+                        <textarea id="taInput"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div id="showTraceBox">console</div>
+            <pre class="tCont ">&lt;!DOCTYPE html&gt;
+&lt;!-- saved from url=(0026)http://www.qmaile.com/ --&gt;
+&lt;html lang=&quot;zh-cn&quot;&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt; 
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;title&gt;超级VIP视频在线观看&lt;/title&gt;
+&lt;link href=&quot;./favicon.ico&quot; rel=&quot;shortcut icon&quot; /&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;全民解析VIP视频免费看，在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，芒果vip解析方便广大用户VIP视频服务，&quot;&gt;
+  &lt;link href=&quot;//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;./stylee.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+   &lt;script type=&quot;text/javascript&quot;&gt;eval(function(p,a,c,k,e,d){e=function(c){return(c&lt;a?&quot;&quot;:e(parseInt(c/a)))+((c=c%a)&gt;35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('b a(){0 6=1.2(&quot;9&quot;).4;0 5=1.2(&quot;3&quot;);0 3=1.2(&quot;3&quot;).c;0 8=5.e[3].4;0 7=1.2(&quot;f&quot;);7.d=8+6}',16,16,'var|document|getElementById|jk|value|jkurl|diz|cljurl|jkv|url|dihejk|function|selectedIndex|src|options|player'.split('|'),0,{}))
+
+   function dihejk2() {
+       var diz = document.getElementById(&quot;url&quot;).value;
+       var jkurl = document.getElementById(&quot;jk&quot;);
+       var jk = document.getElementById(&quot;jk&quot;).selectedIndex;
+       var jkv = jkurl.options[jk].value;
+       var cljurl = document.getElementById(&quot;player&quot;);
+       window.open(jkv + diz,&quot;_blank&quot;);
+   }
+
+   &lt;/script&gt;
+   &lt;script src=&quot;js/yxjgg.js&quot;&gt;&lt;/script&gt;
+   &lt;/head&gt;
+&lt;body background=&quot;./bj.png&quot;&gt;
+  &lt;div class=&quot;col-xs-12 col-sm-10 col-md-8 col-lg-7 center-block&quot; style=&quot;float: none;&quot;&gt;
+  &lt;h3 class=&quot;text-muted&quot; align=&quot;center&quot;&gt;超级vip视频在线观看&lt;/h3&gt;
+
+	
+    &lt;/div&gt;
+ &lt;/p&gt;
+			
+
+        &lt;/section&gt;
+    &lt;/section&gt;
+&lt;/section&gt;
+
+     &lt;iframe src=&quot;http://jx.aeidu.cn/ks.php&quot;id=&quot;player&quot;width=&quot;100%&quot;height=&quot;400px&quot;allowTransparency=&quot;true&quot;frameborder=&quot;0&quot;scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;	 
+     &lt;/div&gt;
+    &lt;/div&gt;
+&lt;script&gt;
+    if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        document.getElementById(&quot;sdfdf&quot;).style.display = &quot;block&quot;;
+    }
+&lt;/script&gt;
+   &lt;/div&gt;&lt;div class=&quot;col-md-14 column&quot;&gt;  
+    &lt;form method=&quot;get&quot; id=&quot;1233911832&quot;&gt;&lt;/form&gt;
+     &lt;div class=&quot;input-group&quot; style=&quot;width: 100%;&quot;&gt;
+      &lt;span class=&quot;input-group-addon input-lg&quot; style=&quot;width: 80px; &quot;&gt;选择接口&lt;/span&gt;
+      &lt;select class=&quot;form-control input-lg&quot; id=&quot;jk&quot;&gt;
+      &lt;option value=&quot;http://jx.aeidu.cn/index404.php?url=&quot; selected=&quot; selected=&quot;&quot;&gt;①号通用vip引擎系统【稳定通用】&lt;/option&gt; &lt;/select&gt;
+     &lt;/div&gt;
+     &lt;br&gt;
+     &lt;div class=&quot;input-group&quot; style=&quot;width: 100%;&quot;&gt;
+      &lt;span class=&quot;input-group-addon input-lg&quot; style=&quot;width: 80px;&quot;&gt;播放地址&lt;/span&gt;
+      &lt;input class=&quot;form-control input-lg&quot; type=&quot;search&quot; placeholder=&quot;电脑使用Ctrl+V粘贴网址-手机直接长按粘贴网址&quot; id=&quot;url&quot;&gt;
+     &lt;/div&gt;
+     &lt;br&gt;
+     &lt;div&gt;
+      &lt;button id=&quot;bf&quot; type=&quot;button&quot; class=&quot;btn btn-success btn-lg btn-block&quot; onClick=&quot;dihejk()&quot;&gt;Go-点击开始播放&lt;/button&gt;
+
+     &lt;/div&gt;  
+   &lt;/div&gt;
+     &lt;div class=&quot;unit-100&quot;&gt;
+    &lt;div class=&quot;language&quot;&gt;
+        &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.le.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入乐视视频&lt;/a&gt;
+        &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.iqiyi.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入奇艺视频&lt;/a&gt;
+        &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.mgtv.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入芒果视频&lt;/a&gt;
+		    &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.tudou.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入土豆视频&lt;/a&gt;		
+       &lt;br&gt;
+		    &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://v.qq.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入腾讯视频&lt;/a&gt;		
+        &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.youku.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入优酷视频&lt;/a&gt;
+		    &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://tv.sohu.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入搜狐视频&lt;/a&gt;
+		    &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;http://www.pptv.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;进入pptv视频&lt;/a&gt;
+  &lt;/div&gt;
+
+	   
+		&lt;tr&gt;
+   
+		&lt;/tr&gt;
+      &lt;/tbody&gt;
+	  &lt;!--换行--&gt;
+          &lt;/table&gt;
+		  	&lt;table class=&quot;table table-bordered&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th class=&quot;tit&quot;&gt;VIP视频使用说明&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+&lt;tbody&gt;
+		&lt;tr&gt;
+            &lt;td&gt;
+    &lt;h3&gt;操作指南&lt;/h3&gt;
+    &lt;ul style=&quot;list-style-type:none&quot;&gt;
+        &lt;li&gt;第&amp;nbsp;一&amp;nbsp;步&amp;nbsp;进入各大视频网站，找到想要观看的VIP视频，然后复制链接（浏览器上的视频地址）&lt;/li&gt;
+        &lt;li&gt;第&amp;nbsp;二&amp;nbsp;步&amp;nbsp;将复制的链接粘贴到本站播放地址，并点击开始播放&lt;/li&gt;
+        &lt;li&gt;第&amp;nbsp;三&amp;nbsp;步&amp;nbsp;等待解析完成，即可免费观看VIP视频&lt;/li&gt;
+        &lt;li&gt;第&amp;nbsp;四&amp;nbsp;步&amp;nbsp;加微信号：HX666id,获取更多精彩&lt;/li&gt;
+                       &lt;h3&gt;温馨提示&lt;/h3&gt;
+     &lt;div class=&quot;unit-100&quot;&gt;
+    &lt;div class=&quot;language&quot;&gt;	       
+         &lt;a class=&quot;btn2 btn-outline2&quot; href=&quot;https://s1.ax1x.com/2018/02/06/9l7iSP.jpg&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;图文使用教程(点击)
+&lt;/a&gt;		
+&lt;script type=&quot;text/javascript&quot;&gt;
+//禁止鼠标右键菜单和F12打开控制台看源码
+function click(e) {
+if (document.all) {
+if (event.button==2||event.button==3) { 
+alert(&quot;欢迎光临寒舍，有什么需要帮忙的话，请与站长联系！谢谢您的合作！！！&quot;);
+oncontextmenu='return false';
+}
+}
+if (document.layers) {
+if (e.which == 3) {
+oncontextmenu='return false';
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=click;
+document.oncontextmenu = new Function(&quot;return false;&quot;)
+document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
+if(window.event.keyCode == 123) { 
+window.event.returnValue=false;
+return(false); 
+} 
+}
+// &lt;--123&mdash;&mdash;112是F1-F12的代码数--&gt;
+&lt;/script&gt;
+      
+
+
+&lt;/div&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;//js.users.51.la/19393308.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+            <pre class="tCont ">a:link {
+ text-decoration: none;
+}
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: none;
+}
+a:active {
+ text-decoration: none;
+}
+.unit-100 {
+    width: 100%;
+}
+.language {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+	padding-top: 10px;
+}	
+.btn2 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #5cb85c;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    background: #eeeded;
+    padding: 20px 20px;
+    height: 2.3em;
+}
+.btn2:link {
+    color: #FFFFFF;
+    background: #5cb85c;
+}
+
+.btn2:visited {
+    color: #FFFFFF;
+    background: #5cb85c;
+}
+
+.btn2:hover {
+    color: #5cb85c;
+    background: #FFFFFF;
+}
+
+.btn2:active {
+    color: #FFFFFF;
+    background: #5cb85c;
+}
+.btn-outline2 {
+    background: none;
+    border: 3px solid #5cb85c;
+    *height: 15px;
+    *height: _15px;
+    margin-right: 14px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.tit {
+            margin: 0 auto;
+            padding: 4px;
+			font-size: 24px;
+            text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+}
+ul li {
+    padding: 4px 0;
+    list-style: none;
+    *line-height: 30px;
+   * font-size: 16px;
+    *white-space: nowrap;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.coin {
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+}
+</pre>
+    </div>
+</div>
+<script>doNotCheckHref = true;
+window.addEventListener('load', function () {
+//                        EmbedManager.loadResult();
+    document.querySelector("#actions li a").click();
+}, false);
+</script>
+<div style="display: none">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261859344'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1261859344' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
