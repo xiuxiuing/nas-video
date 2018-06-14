@@ -45,11 +45,15 @@
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
 
      var r = window.location.search.substr(1).match(reg);
+     console.log("r:" + r)
+
         if (r != null)return unescape(r[2]);
         return null;
     }
 
    function play(url) {
+     console.log("url:" + url)
+
         $('#WANG').attr('src', decodeURIComponent(decodeURIComponent(url))).show();
     }
 
