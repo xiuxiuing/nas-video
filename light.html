@@ -147,7 +147,8 @@ li {
 
     </style>
 
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>超级VIP视频在线观看</title><link href="http://jsrun.cn/vJqKp/result/favicon.ico" rel="shortcut icon"><meta name="keywords" content="vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析"><meta name="description" content="全民解析VIP视频免费看，在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，芒果vip解析方便广大用户VIP视频服务，"><link href="css/Fbootstrap.min.css" rel="stylesheet"><link href="css/stylee.css" type="text/css" rel="stylesheet"><script type="text/javascript">eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('b a(){0 6=1.2("9").4;0 5=1.2("3");0 3=1.2("3").c;0 8=5.e[3].4;0 7=1.2("f");7.d=8+6}',16,16,'var|document|getElementById|jk|value|jkurl|diz|cljurl|jkv|url|dihejk|function|selectedIndex|src|options|player'.split('|'),0,{}))
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>超级VIP视频在线观看</title><link href="http://jsrun.cn/vJqKp/result/favicon.ico" rel="shortcut icon"><meta name="keywords" content="vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析"><meta name="description" content="全民解析VIP视频免费看，在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，芒果vip解析方便广大用户VIP视频服务，"><link href="css/Fbootstrap.min.css" rel="stylesheet"><link href="css/stylee.css" type="text/css" rel="stylesheet"><script type="text/javascript">
+   eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('b a(){0 6=1.2("9").4;0 5=1.2("3");0 3=1.2("3").c;0 8=5.e[3].4;0 7=1.2("f");7.d=8+6}',16,16,'var|document|getElementById|jk|value|jkurl|diz|cljurl|jkv|url|dihejk|function|selectedIndex|src|options|player'.split('|'),0,{}))
 
 
 
@@ -158,7 +159,8 @@ li {
        var jk = document.getElementById("jk").selectedIndex;
        var jkv = jkurl.options[jk].value;
        var cljurl = document.getElementById("player");
-       window.open(jkv + diz,"_blank");
+       cljurl = jkv + diz
+       <!-- window.open(jkv + diz,"_blank"); -->
    }
 
  </script>
@@ -217,7 +219,7 @@ li {
      </div>
      <br>
      <div>
-      <button id="bf" type="button" class="btn btn-success btn-lg btn-block" ">Go-点击开始播放</button>
+      <button id="bf" type="button" class="btn btn-success btn-lg btn-block"  ">Go-点击开始播放</button>
 
      </div>
    </div>
@@ -311,15 +313,45 @@ return(false);
 
       var callArgs = JSON.stringify([arg]);
       serialNumber = nebPay.call(to, value, callFunction, callArgs,{
-        listener: cbPush,
+        listener: dihejk,
         callback: callbackUrl
       });
 
-
-
+      search();
 
     });
     //
+
+    function search(){
+      console.log("search")
+      var dappAddress = "n1g8R8dH1qwtQEBmGUu51cHhtMFBVWscLXp";
+      var nebulas = require("nebulas"),
+       Account = nebulas.Account,
+       neb = new nebulas.Neb();
+      neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
+
+      var from = Account.NewAccount().getAddressString();
+
+       var value = "0";
+       var nonce = "0"
+       var gas_price = "1000000"
+       var gas_limit = "2000000"
+       var callFunction = "search";
+
+       var callArgs = JSON.stringify("");  //推荐用 JSON.stringify 来生成参数字符串,这样会避免出错!
+       var contract = {
+            "function": callFunction,
+             "args": callArgs
+        }
+
+        neb.api.call(from,dappAddress,value,nonce,gas_price,gas_limit,contract).then(function (resp) {
+                  console.log("jsresp:" + resp)
+          }).catch(function (err) {
+                   //cbSearch(err)
+            console.log("error:" + err.message)
+        })
+
+    }
 
     function cbPush(resp) {
       console.log("cbPush")
