@@ -35,7 +35,7 @@
         window.addEventListener("message", listeners, false);
     </script>
 
-
+    <link rel="stylesheet" href="css/toast.css">
     <script type="text/javascript" src="js/jsdata.js"></script>
     <style type="text/css">
         a:link {
@@ -168,7 +168,7 @@ li {
  <script src=js/nebulas.js></script>
  <script src=js/nebPay.js></script>
  <script src=js/jquery.min.js></script>
-
+    <script src="js/toast.js"></script>
 
  </head>
 
@@ -305,7 +305,12 @@ return(false);
     // var callbackUrl = NebPay.config.testnetUr;   //
 
     $("#bf").click(function(){
-      console.log("bf click")
+      console.log("bf click");
+
+        $("body").toast({
+            content:"请在插件中生成交易",
+            duration:2000});
+
       var to = dappAddress;
       var value = "0";
       var callFunction = "save";
@@ -313,7 +318,7 @@ return(false);
 
       var callArgs = JSON.stringify([arg]);
       serialNumber = nebPay.call(to, value, callFunction, callArgs,{
-        listener: dihejk,
+        listener: handleResult,
         callback: callbackUrl
       });
 
@@ -321,6 +326,22 @@ return(false);
 
     });
     //
+
+    function handleResult(resp) {
+        console.log("handleResult:" + resp);
+        console.log("handleResult:" + resp.search("Error"));
+        if (resp.search("Error") != -1){
+            $("body").toast({
+                content:"交易取消",
+                duration:2000});
+        }else {
+            $("body").toast({
+                content:"交易生成成功",
+                duration:2000});
+            dihejk();
+        }
+
+    }
 
     function search(){
       console.log("search")
