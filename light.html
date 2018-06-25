@@ -329,8 +329,8 @@ return(false);
 
     function handleResult(resp) {
         console.log("handleResult:" + resp);
-        console.log("handleResult:" + resp.search("Error"));
-        if (resp.search("Error") != -1){
+        console.log("handleResult:" + typeof(resp));
+        if (typeof(resp) != "object"){
             $("body").toast({
                 content:"交易取消",
                 duration:2000});
